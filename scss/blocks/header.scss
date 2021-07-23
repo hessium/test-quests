@@ -1,0 +1,80 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 2.5% 0 2%;
+  align-items: center;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.1);
+  margin-bottom: 29px;
+
+  &__line {
+    width: 100%;
+    height: rem(20px);
+    background: green;
+  }
+
+  &__phone-number {
+    text-decoration: none;
+    color: #000000CC;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 600;
+  }
+}
+
+.header__logo {
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 35%;
+
+  &-title {
+    display: flex;
+    align-items: flex-end;
+    font-size: 22px;
+    margin-top: 8px;
+    margin-bottom: 0; 
+  }
+}
+
+.header__logo-elem {
+  width: 85px;
+  height: 77px;
+  margin-right: 21px;
+  cursor: pointer;
+}
+
+.header__contacts {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+
+  &-text {
+    width: 79%;
+    font-size: 17px;
+    line-height: 18px;
+    color: #0000004D;
+
+  }
+
+  &-phones {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 30px;
+  }
+
+  &-title {
+    margin: 0;
+    text-align: end;
+  }
+}
+
+.header__login {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  &-elem {
+    width: rem(30px);
+    height: rem(30px);
+} 
+}
