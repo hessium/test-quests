@@ -1,0 +1,19 @@
+.contacts {
+  min-width: rem(292px);
+  padding-right: rem(20px);
+  line-height: 18px;
+  margin-right: rem(40px);
+
+  &__title {
+    font-size: 18px;
+    font-weight: 800;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    margin-bottom: 21px;
+  }
+
+  &__address {
+    margin-bottom: 10px;
+    font-size: rem(16px);
+    line-height:  20,97px;
+  }
+}

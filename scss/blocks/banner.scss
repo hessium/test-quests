@@ -1,0 +1,74 @@
+.headline__banner {
+  display: flex;
+  background:
+  url("../img/phone.png") left bottom / 50% no-repeat,
+  url("../img/ellipse.svg") left top/ 29% no-repeat,
+  url("../img/qr.png") right 5% top 39% / 23% no-repeat,
+  url("../img/decor.svg") right -2% top 37% / 35% no-repeat,
+  url("../img/bg.png");
+  width: rem(849px);
+  height: rem(311px);
+  justify-content: center;
+  border: 4px;
+  position: relative;
+
+   &::before {
+    content: "Наведите камеру или сканер QR-кодов";
+    position: absolute;
+    right: rem(22px);
+    bottom: rem(44px);
+    font-size: 13px;
+    color: #ffffff;
+  }
+ 
+}
+
+.banner {
+
+  &__img {
+    width: 50%;
+  }
+
+  &__menu {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 95%;
+
+  &-item {
+  list-style: georgian outside url("../img/item.svg");
+  margin: 0 rem(20px) rem(12px) rem(26px);
+  color: #ffffff;
+
+    &:last-child {
+      margin-bottom: 0;
+  }
+  
+  }
+  }
+}
+
+
+
+.banner__item {
+  margin-left: rem(22px);
+
+  &-text {
+    margin-bottom: rem(20px);
+  }
+
+  &-title {
+  margin: rem(40px) 0 0 0;
+  color: #ffffff;
+  font-size: rem(22px);
+  margin-bottom: 12px;
+  line-height: 23px;
+  font-weight: bold;
+  }
+
+  &-subtitle{
+    font-size: rem(16px);
+    color: #ffffff;
+  }
+
+}
